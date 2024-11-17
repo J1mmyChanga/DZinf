@@ -3,6 +3,14 @@
 using namespace std;
 
 int main() {
-    cout << stoi("sdwdawd3434") << endl;
-    return 0;
+    int A[10];
+    for (int i = 0; i <= 10; i++) A[i] = i;
+    for (int i = 0; i <= 10; i++) {
+        A[10 - i] = A[i];
+        A[i] = A[10 - i];
+    }
+    cout << A;
+    for (int n: A) {
+        cout << n << " ";
+    }
 }

@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    system("chcp 65001");
     float S, p, n, m, r;
     cout << "Введите сумму займа S, процентную ставку p и количество лет n:" << endl;
     cin >> S >> p >> n;

@@ -601,6 +601,39 @@ build testik42.exe: CXX_EXECUTABLE_LINKER__testik42_Debug CMakeFiles/testik42.di
   TARGET_IMPLIB = libtestik42.dll.a
   TARGET_PDB = testik42.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target testik43
+
+
+#############################################
+# Order-only phony target for testik43
+
+build cmake_object_order_depends_target_testik43: phony || .
+
+build CMakeFiles/testik43.dir/4/43.cpp.obj: CXX_COMPILER__testik43_unscanned_Debug D$:/testik/4/43.cpp || cmake_object_order_depends_target_testik43
+  DEP_FILE = CMakeFiles\testik43.dir\4\43.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik43.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik43.dir\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik43
+
+
+#############################################
+# Link the executable testik43.exe
+
+build testik43.exe: CXX_EXECUTABLE_LINKER__testik43_Debug CMakeFiles/testik43.dir/4/43.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik43.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = testik43.exe
+  TARGET_IMPLIB = libtestik43.dll.a
+  TARGET_PDB = testik43.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -649,6 +682,8 @@ build testik41: phony testik41.exe
 
 build testik42: phony testik42.exe
 
+build testik43: phony testik43.exe
+
 build testik5: phony testik5.exe
 
 build testik6: phony testik6.exe
@@ -669,7 +704,7 @@ build testikmain: phony testikmain.exe
 #############################################
 # Folder: D:/testik/cmake-build-debug
 
-build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe testik6.exe testik7.exe testik8.exe testik9.exe testik10.exe testik11.exe testik12.exe testik13.exe testik14.exe testikmain.exe testik41.exe testik42.exe
+build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe testik6.exe testik7.exe testik8.exe testik9.exe testik10.exe testik11.exe testik12.exe testik13.exe testik14.exe testikmain.exe testik41.exe testik42.exe testik43.exe
 
 # =============================================================================
 # Built-in targets

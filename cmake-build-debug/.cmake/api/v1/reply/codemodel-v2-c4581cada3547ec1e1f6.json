@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "testik",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "testik::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik-Debug-1886dc085022cbffcadb.json",
+					"name" : "testik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik10-Debug-aaf35cb5b30e693b64b7.json",
+					"name" : "testik10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik11-Debug-e0c08f858557098ef497.json",
+					"name" : "testik11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik12-Debug-13c6b88f7802faac4e65.json",
+					"name" : "testik12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik13-Debug-3df05ecdb4eadc64cbde.json",
+					"name" : "testik13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik14::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik14-Debug-388d5a8bdb92dbbab6f0.json",
+					"name" : "testik14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik2-Debug-f67d2b295310e8697ea9.json",
+					"name" : "testik2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik3-Debug-6deb2fccf960713116ed.json",
+					"name" : "testik3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik4-Debug-600d15b8d724b9048a3d.json",
+					"name" : "testik4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik41::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik41-Debug-a65d0bca314c8f1b1c3c.json",
+					"name" : "testik41",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik42::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik42-Debug-4f6b47c87b133f15eacb.json",
+					"name" : "testik42",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik43::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik43-Debug-c49d7d08e31e8c2a64a7.json",
+					"name" : "testik43",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik5-Debug-fe42e6b3fdb2c233f3da.json",
+					"name" : "testik5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik6-Debug-a7da1ca1dc14fe8c91db.json",
+					"name" : "testik6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik7-Debug-9810b718a6d004180a8a.json",
+					"name" : "testik7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik8-Debug-e3630f55d3d8a9d5abbb.json",
+					"name" : "testik8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testik9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testik9-Debug-ac0be4e2c2623cb933b0.json",
+					"name" : "testik9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testikmain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testikmain-Debug-d5aa9ef44e227ccbef4e.json",
+					"name" : "testikmain",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/testik/cmake-build-debug",
+		"source" : "D:/testik"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -634,6 +634,72 @@ build testik43.exe: CXX_EXECUTABLE_LINKER__testik43_Debug CMakeFiles/testik43.di
   TARGET_IMPLIB = libtestik43.dll.a
   TARGET_PDB = testik43.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target testik44
+
+
+#############################################
+# Order-only phony target for testik44
+
+build cmake_object_order_depends_target_testik44: phony || .
+
+build CMakeFiles/testik44.dir/4/44.cpp.obj: CXX_COMPILER__testik44_unscanned_Debug D$:/testik/4/44.cpp || cmake_object_order_depends_target_testik44
+  DEP_FILE = CMakeFiles\testik44.dir\4\44.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik44.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik44.dir\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik44
+
+
+#############################################
+# Link the executable testik44.exe
+
+build testik44.exe: CXX_EXECUTABLE_LINKER__testik44_Debug CMakeFiles/testik44.dir/4/44.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik44.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = testik44.exe
+  TARGET_IMPLIB = libtestik44.dll.a
+  TARGET_PDB = testik44.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik45
+
+
+#############################################
+# Order-only phony target for testik45
+
+build cmake_object_order_depends_target_testik45: phony || .
+
+build CMakeFiles/testik45.dir/4/45.cpp.obj: CXX_COMPILER__testik45_unscanned_Debug D$:/testik/4/45.cpp || cmake_object_order_depends_target_testik45
+  DEP_FILE = CMakeFiles\testik45.dir\4\45.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik45.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik45.dir\4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik45
+
+
+#############################################
+# Link the executable testik45.exe
+
+build testik45.exe: CXX_EXECUTABLE_LINKER__testik45_Debug CMakeFiles/testik45.dir/4/45.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik45.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = testik45.exe
+  TARGET_IMPLIB = libtestik45.dll.a
+  TARGET_PDB = testik45.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -684,6 +750,10 @@ build testik42: phony testik42.exe
 
 build testik43: phony testik43.exe
 
+build testik44: phony testik44.exe
+
+build testik45: phony testik45.exe
+
 build testik5: phony testik5.exe
 
 build testik6: phony testik6.exe
@@ -704,7 +774,7 @@ build testikmain: phony testikmain.exe
 #############################################
 # Folder: D:/testik/cmake-build-debug
 
-build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe testik6.exe testik7.exe testik8.exe testik9.exe testik10.exe testik11.exe testik12.exe testik13.exe testik14.exe testikmain.exe testik41.exe testik42.exe testik43.exe
+build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe testik6.exe testik7.exe testik8.exe testik9.exe testik10.exe testik11.exe testik12.exe testik13.exe testik14.exe testikmain.exe testik41.exe testik42.exe testik43.exe testik44.exe testik45.exe
 
 # =============================================================================
 # Built-in targets

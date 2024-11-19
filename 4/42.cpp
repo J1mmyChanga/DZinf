@@ -9,7 +9,7 @@ int sign(float x) {
 
 bool is_number(string line) {
     for (int i = 0; i < line.length(); i++) {
-        if (isalpha(line[i])) return false;
+        if (not isdigit(line[i])) return false;
     }
     return true;
 }

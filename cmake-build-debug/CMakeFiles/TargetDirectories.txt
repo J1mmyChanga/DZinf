@@ -16,5 +16,7 @@ D:/testik/cmake-build-debug/CMakeFiles/testikmain.dir
 D:/testik/cmake-build-debug/CMakeFiles/testik41.dir
 D:/testik/cmake-build-debug/CMakeFiles/testik42.dir
 D:/testik/cmake-build-debug/CMakeFiles/testik43.dir
+D:/testik/cmake-build-debug/CMakeFiles/testik44.dir
+D:/testik/cmake-build-debug/CMakeFiles/testik45.dir
 D:/testik/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/testik/cmake-build-debug/CMakeFiles/rebuild_cache.dir

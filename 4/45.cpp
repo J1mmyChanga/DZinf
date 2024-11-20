@@ -1,21 +1,28 @@
-#include <iostream>
-#include <Windows.h>
 #include <cmath>
+#include <iostream>
+#include <string>
+#include <vector>
 using namespace std;
 
 int main() {
-    HWND hWnd = GetConsoleWindow();
-    HDC hDC = GetDC(hWnd);
-    HPEN Pen = CreatePen(PS_SOLID, 2, RGB(255, 255, 255));
-    SelectObject(hDC, Pen);
-    MoveToEx(hDC, 0, 85, NULL);
-    LineTo(hDC, 200, 85);
-    MoveToEx(hDC, 100, 0, NULL);
-    LineTo(hDC, 100, 170);
-    for (float x = -8.0f; x <= 8.0f; x += 0.01f) {
-        MoveToEx(hDC, 10 * x + 100, -10 * sin(x) + 85, NULL);
-        LineTo(hDC, 10 * x + 100, -10 * sin(x) + 85);
+    float inner_k = 8; // уменьшение сжимает к оси Oy
+    float outer_k = 20; // уменьшение сжимает к оси Ox
+    int accuracy = 1;
+    int x = 120; // max_x
+    int y = outer_k * 2 + 1; // max_y
+
+    vector<string> graph(y, string(x, ' '));
+
+    graph[y / 2] = string(x, '-'); // Ox
+
+    int zero = y / 2;
+
+    for (int i = 0; i < x; i++) { // точки графика
+        graph[round((outer_k * sin(i / inner_k) + zero) * accuracy) / accuracy][i] = '*';
     }
-    ReleaseDC(hWnd, hDC);
-    cin.get();
+
+
+    for (auto s : graph) {
+        cout << s << '\n';
+    }
 }

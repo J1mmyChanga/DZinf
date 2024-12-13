@@ -2,19 +2,19 @@
 #include <cmath>
 using namespace std;
 
-float triangle() {
+int triangle() {
     float a, h;
     cout << "Введите сторону треугольника a и высоту h, проведённую к ней:\n";
     cin >> a >> h;
-    if (a < 0 or h < 0) {
+    if (a <= 0 or h <= 0) {
         cout << "Введённые данные некорректны";
         return 0;
     }
-    cout << "Площадь треугольника: ";
-    return a * h * 0.5;
+    cout << "Площадь треугольника: " << a * h * 0.5;
+    return 0;
 }
 
-float circle() {
+int circle() {
     float r, pi;
     pi = floor(M_PI * 100) / 100;
     cout << "Введите радиус круга:\n";
@@ -23,20 +23,20 @@ float circle() {
         cout << "Введённые данные некорректны";
         return 0;
     }
-    cout << "Площадь круга: ";
-    return pi * pow(r, 2);
+    cout << "Площадь круга: " << pi * pow(r, 2);
+    return 0;
 }
 
-float rectangle() {
+int rectangle() {
     float a, b;
     cout << "Введите две стороны прямоугольника a и b:\n";
     cin >> a >> b;
-    if (a < 0 or b < 0) {
+    if (a <= 0 or b <= 0) {
         cout << "Введённые данные некорректны";
         return 0;
     }
-    cout << "Площадь прямоугольника: ";
-    return a * b;
+    cout << "Площадь прямоугольника: " << a * b;
+    return 0;
 }
 
 int main() {
@@ -45,9 +45,9 @@ int main() {
     cout << "(Варианты ответа: треугольник - 1, круг - 2, прямоугольник - 3)\n";
     cin >> ans;
     switch (ans) {
-        case 1: cout << triangle(); break;
-        case 2: cout << circle(); break;
-        case 3: cout << rectangle(); break;
+        case 1: triangle(); break;
+        case 2: circle(); break;
+        case 3: rectangle(); break;
         default: cout << "Некорректный ответ"; break;
     }
     return 0;

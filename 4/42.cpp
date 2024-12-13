@@ -9,7 +9,7 @@ int sign(float x) {
 
 bool is_number(string line) {
     for (int i = 0; i < line.length(); i++) {
-        if (not isdigit(line[i])) return false;
+        if (not isdigit(line[i]) and line[i] != '-') return false;
     }
     return true;
 }
@@ -21,7 +21,7 @@ int main() {
         cout << sign(stof(x));
     }
     else {
-        cout << "Введите число, а не строку";
+        cout << "Неверные данные";
     }
     return 0;
 }

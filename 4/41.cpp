@@ -1,12 +1,13 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
 
 int main() {
     float summ = 0, num_in;
     string num_sum;
     ofstream fout("41.txt");
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 10; i++) {
         cin >> num_in;
         fout << num_in << endl;
     }

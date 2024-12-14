@@ -3,14 +3,15 @@
 using namespace std;
 
 int triangle() {
-    float a, h;
-    cout << "Введите сторону треугольника a и высоту h, проведённую к ней:\n";
-    cin >> a >> h;
-    if (a <= 0 or h <= 0) {
+    float a, b, c;
+    cout << "Введите три стороны треугольника:\n";
+    cin >> a >> b >> c;
+    if (a <= 0 or b <= 0 or c <= 0) {
         cout << "Введённые данные некорректны";
         return 0;
     }
-    cout << "Площадь треугольника: " << a * h * 0.5;
+    float p = (a + b + c) / 2;
+    cout << "Площадь треугольника: " << sqrt(p * (p - a) * (p - b) * (p - c));
     return 0;
 }
 

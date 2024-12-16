@@ -54,6 +54,8 @@ build CMakeFiles/testik.dir/1/11.cpp.obj: CXX_COMPILER__testik_unscanned_Debug D
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik.dir
   OBJECT_FILE_DIR = CMakeFiles\testik.dir\1
+  TARGET_COMPILE_PDB = CMakeFiles\testik.dir\
+  TARGET_PDB = testik.pdb
 
 
 # =============================================================================
@@ -69,9 +71,10 @@ build testik.exe: CXX_EXECUTABLE_LINKER__testik_Debug CMakeFiles/testik.dir/1/11
   OBJECT_DIR = CMakeFiles\testik.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik.dir\
   TARGET_FILE = testik.exe
   TARGET_IMPLIB = libtestik.dll.a
-  TARGET_PDB = testik.exe.dbg
+  TARGET_PDB = testik.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik2
@@ -87,6 +90,8 @@ build CMakeFiles/testik2.dir/1/12.cpp.obj: CXX_COMPILER__testik2_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik2.dir
   OBJECT_FILE_DIR = CMakeFiles\testik2.dir\1
+  TARGET_COMPILE_PDB = CMakeFiles\testik2.dir\
+  TARGET_PDB = testik2.pdb
 
 
 # =============================================================================
@@ -102,9 +107,10 @@ build testik2.exe: CXX_EXECUTABLE_LINKER__testik2_Debug CMakeFiles/testik2.dir/1
   OBJECT_DIR = CMakeFiles\testik2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik2.dir\
   TARGET_FILE = testik2.exe
   TARGET_IMPLIB = libtestik2.dll.a
-  TARGET_PDB = testik2.exe.dbg
+  TARGET_PDB = testik2.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik3
@@ -120,6 +126,8 @@ build CMakeFiles/testik3.dir/1/13.cpp.obj: CXX_COMPILER__testik3_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik3.dir
   OBJECT_FILE_DIR = CMakeFiles\testik3.dir\1
+  TARGET_COMPILE_PDB = CMakeFiles\testik3.dir\
+  TARGET_PDB = testik3.pdb
 
 
 # =============================================================================
@@ -135,9 +143,10 @@ build testik3.exe: CXX_EXECUTABLE_LINKER__testik3_Debug CMakeFiles/testik3.dir/1
   OBJECT_DIR = CMakeFiles\testik3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik3.dir\
   TARGET_FILE = testik3.exe
   TARGET_IMPLIB = libtestik3.dll.a
-  TARGET_PDB = testik3.exe.dbg
+  TARGET_PDB = testik3.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik4
@@ -153,6 +162,8 @@ build CMakeFiles/testik4.dir/1/14.cpp.obj: CXX_COMPILER__testik4_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik4.dir
   OBJECT_FILE_DIR = CMakeFiles\testik4.dir\1
+  TARGET_COMPILE_PDB = CMakeFiles\testik4.dir\
+  TARGET_PDB = testik4.pdb
 
 
 # =============================================================================
@@ -168,9 +179,10 @@ build testik4.exe: CXX_EXECUTABLE_LINKER__testik4_Debug CMakeFiles/testik4.dir/1
   OBJECT_DIR = CMakeFiles\testik4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik4.dir\
   TARGET_FILE = testik4.exe
   TARGET_IMPLIB = libtestik4.dll.a
-  TARGET_PDB = testik4.exe.dbg
+  TARGET_PDB = testik4.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik5
@@ -186,6 +198,8 @@ build CMakeFiles/testik5.dir/1/15.cpp.obj: CXX_COMPILER__testik5_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik5.dir
   OBJECT_FILE_DIR = CMakeFiles\testik5.dir\1
+  TARGET_COMPILE_PDB = CMakeFiles\testik5.dir\
+  TARGET_PDB = testik5.pdb
 
 
 # =============================================================================
@@ -201,9 +215,10 @@ build testik5.exe: CXX_EXECUTABLE_LINKER__testik5_Debug CMakeFiles/testik5.dir/1
   OBJECT_DIR = CMakeFiles\testik5.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik5.dir\
   TARGET_FILE = testik5.exe
   TARGET_IMPLIB = libtestik5.dll.a
-  TARGET_PDB = testik5.exe.dbg
+  TARGET_PDB = testik5.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik6
@@ -219,6 +234,8 @@ build CMakeFiles/testik6.dir/2/21.cpp.obj: CXX_COMPILER__testik6_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik6.dir
   OBJECT_FILE_DIR = CMakeFiles\testik6.dir\2
+  TARGET_COMPILE_PDB = CMakeFiles\testik6.dir\
+  TARGET_PDB = testik6.pdb
 
 
 # =============================================================================
@@ -234,9 +251,10 @@ build testik6.exe: CXX_EXECUTABLE_LINKER__testik6_Debug CMakeFiles/testik6.dir/2
   OBJECT_DIR = CMakeFiles\testik6.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik6.dir\
   TARGET_FILE = testik6.exe
   TARGET_IMPLIB = libtestik6.dll.a
-  TARGET_PDB = testik6.exe.dbg
+  TARGET_PDB = testik6.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik7
@@ -252,6 +270,8 @@ build CMakeFiles/testik7.dir/2/22.cpp.obj: CXX_COMPILER__testik7_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik7.dir
   OBJECT_FILE_DIR = CMakeFiles\testik7.dir\2
+  TARGET_COMPILE_PDB = CMakeFiles\testik7.dir\
+  TARGET_PDB = testik7.pdb
 
 
 # =============================================================================
@@ -267,9 +287,10 @@ build testik7.exe: CXX_EXECUTABLE_LINKER__testik7_Debug CMakeFiles/testik7.dir/2
   OBJECT_DIR = CMakeFiles\testik7.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik7.dir\
   TARGET_FILE = testik7.exe
   TARGET_IMPLIB = libtestik7.dll.a
-  TARGET_PDB = testik7.exe.dbg
+  TARGET_PDB = testik7.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik8
@@ -285,6 +306,8 @@ build CMakeFiles/testik8.dir/2/23.cpp.obj: CXX_COMPILER__testik8_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik8.dir
   OBJECT_FILE_DIR = CMakeFiles\testik8.dir\2
+  TARGET_COMPILE_PDB = CMakeFiles\testik8.dir\
+  TARGET_PDB = testik8.pdb
 
 
 # =============================================================================
@@ -300,9 +323,10 @@ build testik8.exe: CXX_EXECUTABLE_LINKER__testik8_Debug CMakeFiles/testik8.dir/2
   OBJECT_DIR = CMakeFiles\testik8.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik8.dir\
   TARGET_FILE = testik8.exe
   TARGET_IMPLIB = libtestik8.dll.a
-  TARGET_PDB = testik8.exe.dbg
+  TARGET_PDB = testik8.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik9
@@ -318,6 +342,8 @@ build CMakeFiles/testik9.dir/2/24.cpp.obj: CXX_COMPILER__testik9_unscanned_Debug
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik9.dir
   OBJECT_FILE_DIR = CMakeFiles\testik9.dir\2
+  TARGET_COMPILE_PDB = CMakeFiles\testik9.dir\
+  TARGET_PDB = testik9.pdb
 
 
 # =============================================================================
@@ -333,9 +359,10 @@ build testik9.exe: CXX_EXECUTABLE_LINKER__testik9_Debug CMakeFiles/testik9.dir/2
   OBJECT_DIR = CMakeFiles\testik9.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik9.dir\
   TARGET_FILE = testik9.exe
   TARGET_IMPLIB = libtestik9.dll.a
-  TARGET_PDB = testik9.exe.dbg
+  TARGET_PDB = testik9.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik10
@@ -351,6 +378,8 @@ build CMakeFiles/testik10.dir/2/25.cpp.obj: CXX_COMPILER__testik10_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik10.dir
   OBJECT_FILE_DIR = CMakeFiles\testik10.dir\2
+  TARGET_COMPILE_PDB = CMakeFiles\testik10.dir\
+  TARGET_PDB = testik10.pdb
 
 
 # =============================================================================
@@ -366,9 +395,10 @@ build testik10.exe: CXX_EXECUTABLE_LINKER__testik10_Debug CMakeFiles/testik10.di
   OBJECT_DIR = CMakeFiles\testik10.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik10.dir\
   TARGET_FILE = testik10.exe
   TARGET_IMPLIB = libtestik10.dll.a
-  TARGET_PDB = testik10.exe.dbg
+  TARGET_PDB = testik10.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik11
@@ -384,6 +414,8 @@ build CMakeFiles/testik11.dir/3/31.cpp.obj: CXX_COMPILER__testik11_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik11.dir
   OBJECT_FILE_DIR = CMakeFiles\testik11.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\testik11.dir\
+  TARGET_PDB = testik11.pdb
 
 
 # =============================================================================
@@ -399,9 +431,10 @@ build testik11.exe: CXX_EXECUTABLE_LINKER__testik11_Debug CMakeFiles/testik11.di
   OBJECT_DIR = CMakeFiles\testik11.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik11.dir\
   TARGET_FILE = testik11.exe
   TARGET_IMPLIB = libtestik11.dll.a
-  TARGET_PDB = testik11.exe.dbg
+  TARGET_PDB = testik11.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik12
@@ -417,6 +450,8 @@ build CMakeFiles/testik12.dir/3/32.cpp.obj: CXX_COMPILER__testik12_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik12.dir
   OBJECT_FILE_DIR = CMakeFiles\testik12.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\testik12.dir\
+  TARGET_PDB = testik12.pdb
 
 
 # =============================================================================
@@ -432,9 +467,10 @@ build testik12.exe: CXX_EXECUTABLE_LINKER__testik12_Debug CMakeFiles/testik12.di
   OBJECT_DIR = CMakeFiles\testik12.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik12.dir\
   TARGET_FILE = testik12.exe
   TARGET_IMPLIB = libtestik12.dll.a
-  TARGET_PDB = testik12.exe.dbg
+  TARGET_PDB = testik12.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik13
@@ -450,6 +486,8 @@ build CMakeFiles/testik13.dir/3/33.cpp.obj: CXX_COMPILER__testik13_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik13.dir
   OBJECT_FILE_DIR = CMakeFiles\testik13.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\testik13.dir\
+  TARGET_PDB = testik13.pdb
 
 
 # =============================================================================
@@ -465,9 +503,10 @@ build testik13.exe: CXX_EXECUTABLE_LINKER__testik13_Debug CMakeFiles/testik13.di
   OBJECT_DIR = CMakeFiles\testik13.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik13.dir\
   TARGET_FILE = testik13.exe
   TARGET_IMPLIB = libtestik13.dll.a
-  TARGET_PDB = testik13.exe.dbg
+  TARGET_PDB = testik13.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik14
@@ -483,6 +522,8 @@ build CMakeFiles/testik14.dir/3/34.cpp.obj: CXX_COMPILER__testik14_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik14.dir
   OBJECT_FILE_DIR = CMakeFiles\testik14.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\testik14.dir\
+  TARGET_PDB = testik14.pdb
 
 
 # =============================================================================
@@ -498,9 +539,10 @@ build testik14.exe: CXX_EXECUTABLE_LINKER__testik14_Debug CMakeFiles/testik14.di
   OBJECT_DIR = CMakeFiles\testik14.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik14.dir\
   TARGET_FILE = testik14.exe
   TARGET_IMPLIB = libtestik14.dll.a
-  TARGET_PDB = testik14.exe.dbg
+  TARGET_PDB = testik14.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testikmain
@@ -516,6 +558,8 @@ build CMakeFiles/testikmain.dir/main.cpp.obj: CXX_COMPILER__testikmain_unscanned
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testikmain.dir
   OBJECT_FILE_DIR = CMakeFiles\testikmain.dir
+  TARGET_COMPILE_PDB = CMakeFiles\testikmain.dir\
+  TARGET_PDB = testikmain.pdb
 
 
 # =============================================================================
@@ -531,9 +575,10 @@ build testikmain.exe: CXX_EXECUTABLE_LINKER__testikmain_Debug CMakeFiles/testikm
   OBJECT_DIR = CMakeFiles\testikmain.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testikmain.dir\
   TARGET_FILE = testikmain.exe
   TARGET_IMPLIB = libtestikmain.dll.a
-  TARGET_PDB = testikmain.exe.dbg
+  TARGET_PDB = testikmain.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik41
@@ -549,6 +594,8 @@ build CMakeFiles/testik41.dir/4/41.cpp.obj: CXX_COMPILER__testik41_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik41.dir
   OBJECT_FILE_DIR = CMakeFiles\testik41.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik41.dir\
+  TARGET_PDB = testik41.pdb
 
 
 # =============================================================================
@@ -564,9 +611,10 @@ build testik41.exe: CXX_EXECUTABLE_LINKER__testik41_Debug CMakeFiles/testik41.di
   OBJECT_DIR = CMakeFiles\testik41.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik41.dir\
   TARGET_FILE = testik41.exe
   TARGET_IMPLIB = libtestik41.dll.a
-  TARGET_PDB = testik41.exe.dbg
+  TARGET_PDB = testik41.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik42
@@ -582,6 +630,8 @@ build CMakeFiles/testik42.dir/4/42.cpp.obj: CXX_COMPILER__testik42_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik42.dir
   OBJECT_FILE_DIR = CMakeFiles\testik42.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik42.dir\
+  TARGET_PDB = testik42.pdb
 
 
 # =============================================================================
@@ -597,9 +647,10 @@ build testik42.exe: CXX_EXECUTABLE_LINKER__testik42_Debug CMakeFiles/testik42.di
   OBJECT_DIR = CMakeFiles\testik42.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik42.dir\
   TARGET_FILE = testik42.exe
   TARGET_IMPLIB = libtestik42.dll.a
-  TARGET_PDB = testik42.exe.dbg
+  TARGET_PDB = testik42.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik43
@@ -615,6 +666,8 @@ build CMakeFiles/testik43.dir/4/43.cpp.obj: CXX_COMPILER__testik43_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik43.dir
   OBJECT_FILE_DIR = CMakeFiles\testik43.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik43.dir\
+  TARGET_PDB = testik43.pdb
 
 
 # =============================================================================
@@ -630,9 +683,10 @@ build testik43.exe: CXX_EXECUTABLE_LINKER__testik43_Debug CMakeFiles/testik43.di
   OBJECT_DIR = CMakeFiles\testik43.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik43.dir\
   TARGET_FILE = testik43.exe
   TARGET_IMPLIB = libtestik43.dll.a
-  TARGET_PDB = testik43.exe.dbg
+  TARGET_PDB = testik43.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik44
@@ -648,6 +702,8 @@ build CMakeFiles/testik44.dir/4/44.cpp.obj: CXX_COMPILER__testik44_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik44.dir
   OBJECT_FILE_DIR = CMakeFiles\testik44.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik44.dir\
+  TARGET_PDB = testik44.pdb
 
 
 # =============================================================================
@@ -663,9 +719,10 @@ build testik44.exe: CXX_EXECUTABLE_LINKER__testik44_Debug CMakeFiles/testik44.di
   OBJECT_DIR = CMakeFiles\testik44.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik44.dir\
   TARGET_FILE = testik44.exe
   TARGET_IMPLIB = libtestik44.dll.a
-  TARGET_PDB = testik44.exe.dbg
+  TARGET_PDB = testik44.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target testik45
@@ -681,6 +738,8 @@ build CMakeFiles/testik45.dir/4/45.cpp.obj: CXX_COMPILER__testik45_unscanned_Deb
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\testik45.dir
   OBJECT_FILE_DIR = CMakeFiles\testik45.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik45.dir\
+  TARGET_PDB = testik45.pdb
 
 
 # =============================================================================
@@ -696,9 +755,226 @@ build testik45.exe: CXX_EXECUTABLE_LINKER__testik45_Debug CMakeFiles/testik45.di
   OBJECT_DIR = CMakeFiles\testik45.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik45.dir\
   TARGET_FILE = testik45.exe
   TARGET_IMPLIB = libtestik45.dll.a
-  TARGET_PDB = testik45.exe.dbg
+  TARGET_PDB = testik45.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik46
+
+
+#############################################
+# Order-only phony target for testik46
+
+build cmake_object_order_depends_target_testik46: phony || .
+
+build CMakeFiles/testik46.dir/4/46.cpp.obj: CXX_COMPILER__testik46_unscanned_Debug D$:/testik/4/46.cpp || cmake_object_order_depends_target_testik46
+  DEP_FILE = CMakeFiles\testik46.dir\4\46.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik46.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik46.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik46.dir\
+  TARGET_PDB = testik46.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik46
+
+
+#############################################
+# Link the executable testik46.exe
+
+build testik46.exe: CXX_EXECUTABLE_LINKER__testik46_Debug CMakeFiles/testik46.dir/4/46.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik46.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik46.dir\
+  TARGET_FILE = testik46.exe
+  TARGET_IMPLIB = libtestik46.dll.a
+  TARGET_PDB = testik46.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik47
+
+
+#############################################
+# Order-only phony target for testik47
+
+build cmake_object_order_depends_target_testik47: phony || .
+
+build CMakeFiles/testik47.dir/4/47.cpp.obj: CXX_COMPILER__testik47_unscanned_Debug D$:/testik/4/47.cpp || cmake_object_order_depends_target_testik47
+  DEP_FILE = CMakeFiles\testik47.dir\4\47.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik47.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik47.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik47.dir\
+  TARGET_PDB = testik47.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik47
+
+
+#############################################
+# Link the executable testik47.exe
+
+build testik47.exe: CXX_EXECUTABLE_LINKER__testik47_Debug CMakeFiles/testik47.dir/4/47.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik47.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik47.dir\
+  TARGET_FILE = testik47.exe
+  TARGET_IMPLIB = libtestik47.dll.a
+  TARGET_PDB = testik47.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik35
+
+
+#############################################
+# Order-only phony target for testik35
+
+build cmake_object_order_depends_target_testik35: phony || .
+
+build CMakeFiles/testik35.dir/3/35.cpp.obj: CXX_COMPILER__testik35_unscanned_Debug D$:/testik/3/35.cpp || cmake_object_order_depends_target_testik35
+  DEP_FILE = CMakeFiles\testik35.dir\3\35.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik35.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik35.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\testik35.dir\
+  TARGET_PDB = testik35.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik35
+
+
+#############################################
+# Link the executable testik35.exe
+
+build testik35.exe: CXX_EXECUTABLE_LINKER__testik35_Debug CMakeFiles/testik35.dir/3/35.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik35.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik35.dir\
+  TARGET_FILE = testik35.exe
+  TARGET_IMPLIB = libtestik35.dll.a
+  TARGET_PDB = testik35.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik48
+
+
+#############################################
+# Order-only phony target for testik48
+
+build cmake_object_order_depends_target_testik48: phony || .
+
+build CMakeFiles/testik48.dir/4/48.cpp.obj: CXX_COMPILER__testik48_unscanned_Debug D$:/testik/4/48.cpp || cmake_object_order_depends_target_testik48
+  DEP_FILE = CMakeFiles\testik48.dir\4\48.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik48.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik48.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik48.dir\
+  TARGET_PDB = testik48.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik48
+
+
+#############################################
+# Link the executable testik48.exe
+
+build testik48.exe: CXX_EXECUTABLE_LINKER__testik48_Debug CMakeFiles/testik48.dir/4/48.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik48.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik48.dir\
+  TARGET_FILE = testik48.exe
+  TARGET_IMPLIB = libtestik48.dll.a
+  TARGET_PDB = testik48.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik49
+
+
+#############################################
+# Order-only phony target for testik49
+
+build cmake_object_order_depends_target_testik49: phony || .
+
+build CMakeFiles/testik49.dir/4/49.cpp.obj: CXX_COMPILER__testik49_unscanned_Debug D$:/testik/4/49.cpp || cmake_object_order_depends_target_testik49
+  DEP_FILE = CMakeFiles\testik49.dir\4\49.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik49.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik49.dir\4
+  TARGET_COMPILE_PDB = CMakeFiles\testik49.dir\
+  TARGET_PDB = testik49.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik49
+
+
+#############################################
+# Link the executable testik49.exe
+
+build testik49.exe: CXX_EXECUTABLE_LINKER__testik49_Debug CMakeFiles/testik49.dir/4/49.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik49.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik49.dir\
+  TARGET_FILE = testik49.exe
+  TARGET_IMPLIB = libtestik49.dll.a
+  TARGET_PDB = testik49.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testik51
+
+
+#############################################
+# Order-only phony target for testik51
+
+build cmake_object_order_depends_target_testik51: phony || .
+
+build CMakeFiles/testik51.dir/5/51.cpp.obj: CXX_COMPILER__testik51_unscanned_Debug D$:/testik/5/51.cpp || cmake_object_order_depends_target_testik51
+  DEP_FILE = CMakeFiles\testik51.dir\5\51.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\testik51.dir
+  OBJECT_FILE_DIR = CMakeFiles\testik51.dir\5
+  TARGET_COMPILE_PDB = CMakeFiles\testik51.dir\
+  TARGET_PDB = testik51.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testik51
+
+
+#############################################
+# Link the executable testik51.exe
+
+build testik51.exe: CXX_EXECUTABLE_LINKER__testik51_Debug CMakeFiles/testik51.dir/5/51.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testik51.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\testik51.dir\
+  TARGET_FILE = testik51.exe
+  TARGET_IMPLIB = libtestik51.dll.a
+  TARGET_PDB = testik51.pdb
 
 
 #############################################
@@ -742,6 +1018,8 @@ build testik2: phony testik2.exe
 
 build testik3: phony testik3.exe
 
+build testik35: phony testik35.exe
+
 build testik4: phony testik4.exe
 
 build testik41: phony testik41.exe
@@ -754,7 +1032,17 @@ build testik44: phony testik44.exe
 
 build testik45: phony testik45.exe
 
+build testik46: phony testik46.exe
+
+build testik47: phony testik47.exe
+
+build testik48: phony testik48.exe
+
+build testik49: phony testik49.exe
+
 build testik5: phony testik5.exe
+
+build testik51: phony testik51.exe
 
 build testik6: phony testik6.exe
 
@@ -774,7 +1062,7 @@ build testikmain: phony testikmain.exe
 #############################################
 # Folder: D:/testik/cmake-build-debug
 
-build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe testik6.exe testik7.exe testik8.exe testik9.exe testik10.exe testik11.exe testik12.exe testik13.exe testik14.exe testikmain.exe testik41.exe testik42.exe testik43.exe testik44.exe testik45.exe
+build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe testik6.exe testik7.exe testik8.exe testik9.exe testik10.exe testik11.exe testik12.exe testik13.exe testik14.exe testikmain.exe testik41.exe testik42.exe testik43.exe testik44.exe testik45.exe testik46.exe testik47.exe testik35.exe testik48.exe testik49.exe testik51.exe
 
 # =============================================================================
 # Built-in targets
@@ -783,14 +1071,14 @@ build all: phony testik.exe testik2.exe testik3.exe testik4.exe testik5.exe test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/testik/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/testik/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/testik/CMakeLists.txt: phony
+build C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/epiak/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/testik/CMakeLists.txt: phony
 
 
 #############################################

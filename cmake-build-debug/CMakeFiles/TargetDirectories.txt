@@ -24,5 +24,6 @@ C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/testik35.dir
 C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/testik48.dir
 C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/testik49.dir
 C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/testik51.dir
+C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/testik52.dir
 C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/user/CLionProjects/DZinf/cmake-build-debug/CMakeFiles/rebuild_cache.dir

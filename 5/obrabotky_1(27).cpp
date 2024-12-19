@@ -12,10 +12,10 @@ string lower_line(string line) {
 
 int main() {
     char symbol;
-    cout << "Введите символ, количество повторений, которого необходимо найти: " << endl;
+    cout << "Input the symbol, that need to be counted: " << endl;
     cin >> symbol;
 
-    ofstream fout("file.txt");
+    ofstream fout("file1.txt");
     fout << "Keith recently came back from a trip to Chicago, Illinois. This midwestern metropolis is found along the shore of Lake Michigan." << endl;
     fout << "During his visit, Keith spent a lot of time exploring the city to visit important landmarks and monuments." << endl;
     fout << "Keith loves baseball, and he made sure to take a visit to Wrigley Field. Not only did he take a tour of this spectacular stadium, but he also got to watch a Chicago Cubs game." << endl;
@@ -30,6 +30,6 @@ int main() {
         vector<char> mas(line.begin(), line.end());
         counter = counter + count(mas.begin(), mas.end(), symbol);
     }
-    cout << "Количество повторений элементов " << symbol << " в тексте: " << counter;
+    cout << "Amount of " << symbol << " symbols: " << counter;
     fin.close();
 }

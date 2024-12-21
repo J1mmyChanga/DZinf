@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    float m, S, r, m_formula, n, p = 0.1;
+    float m, S, r, m_formula, n, p = 0.01;
     cout << "Введите сумму займа S, месячную выплату m и количество лет n:" << endl;
     cin >> S >> m >> n;
     if (m == S / (12.0 * n)) {
@@ -14,8 +14,8 @@ int main() {
         while (p < 100) {
             r = p / 100.0;
             m_formula = S * r * pow(1 + r, n) / (12 * (pow(1 + r, n) - 1));
-            p = p + 0.1;
-            if (m_formula == m) {
+            p = p + 0.01;
+            if (m < m_formula) {
                 cout << "Процентная ставка составляет: " << p << "%";
                 return 0;
             }

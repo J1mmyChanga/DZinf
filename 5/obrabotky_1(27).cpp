@@ -11,11 +11,15 @@ string lower_line(string line) {
 }
 
 int main() {
-    char symbol;
+    string symbol;
     cout << "Input the symbol, that need to be counted: " << endl;
-    cin >> symbol;
+    getline(cin, symbol);
+    if (symbol.length() > 1) {
+        cout << "Incorrect input";
+        return 0;
+    }
 
-    ofstream fout("file1.txt");
+    ofstream fout("file.txt");
     fout << "Keith recently came back from a trip to Chicago, Illinois. This midwestern metropolis is found along the shore of Lake Michigan." << endl;
     fout << "During his visit, Keith spent a lot of time exploring the city to visit important landmarks and monuments." << endl;
     fout << "Keith loves baseball, and he made sure to take a visit to Wrigley Field. Not only did he take a tour of this spectacular stadium, but he also got to watch a Chicago Cubs game." << endl;
@@ -27,9 +31,14 @@ int main() {
     ifstream fin("file.txt");
     while (getline(fin, line)) {
         line = lower_line(line);
-        vector<char> mas(line.begin(), line.end());
-        counter = counter + count(mas.begin(), mas.end(), symbol);
+        // counter = counter + count(line.begin(), line.end(), symbol);
+        //
+        string::size_type pos = 0;
+        while ((pos = line.find(symbol, pos )) != string::npos) {
+            ++counter;
+            pos += symbol.length();
+        }
     }
-    cout << "Amount of " << symbol << " symbols: " << counter;
+    cout << "Amount of '" << symbol << "' symbols: " << counter;
     fin.close();
 }

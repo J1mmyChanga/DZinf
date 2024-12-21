@@ -11,7 +11,11 @@ int triangle() {
         return 0;
     }
     float p = (a + b + c) / 2;
-    cout << "Площадь треугольника: " << sqrt(p * (p - a) * (p - b) * (p - c));
+    if (a + b > c and a + c > b and b + c > a) {
+        cout << "Площадь треугольника: " << sqrt(p * (p - a) * (p - b) * (p - c));
+        return 0;
+    }
+    cout << "Введённые данные некорректны";
     return 0;
 }
 

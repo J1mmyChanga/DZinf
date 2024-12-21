@@ -15,7 +15,7 @@ int main() {
         cout << "Введите число, которое необходимо конвертировать:" << endl;
         cin >> num;
         if (not check_if_sys_is_corr(num, start_sys)) {
-            cout << "Неверная начальная система счисления!" << endl;
+            cout << "Неверные данные!" << endl;
             continue;
         }
         if(end_sys == 10) {
@@ -29,11 +29,9 @@ int main() {
 bool check_if_sys_is_corr (string num, int start_sys) {
     string alph = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for (int i = 0; i < num.length(); i++) {
-        if (not isdigit(num[i])) {
-            int id = alph.find(toupper(num[i]));
-            if (id >= start_sys) {
-                return false;
-            }
+        int id = alph.find(toupper(num[i]));
+        if (id >= start_sys) {
+            return false;
         }
     }
     return true;
